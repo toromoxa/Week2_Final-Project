@@ -229,11 +229,8 @@ nav {
     width: 256px;
     transform: translateX(-55%);
     opacity: 0.05;
-    display: block;
-    
-    
+    display: block;   
 }
-
 
 /* 
 
@@ -919,4 +916,166 @@ PRICING
 
 .spcl {
     color: rgb(247 250 252) !important;
+}
+
+.borderFancy {
+    --tw-border-opacity: 1;
+    border-color: rgb(102 126 234 / var(--tw-border-opacity)) !important;
+}
+
+/* 
+
+TESTIMONIALS 
+
+*/
+
+.testimonials__container {
+    position: relative;
+}
+
+.testimonials__row {
+    padding: 80px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial__Column1 {
+    width: 42%;
+    position: relative;
+}
+
+.love {
+    width: 100%;
+}
+
+.testimonial__Column2 {
+    width: 58%;
+    padding-left: 64px;
+}
+
+.testimonial__subheading {
+    text-align: left;
+    font-size: 18px;
+}
+
+.testimonial__heading {
+    font-size: 56px;
+    text-align: left;
+    margin-top: 16px;
+    font-weight: 900;
+    line-height: 1.25;
+}
+
+.testimonial__para {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 24px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(124, 139, 161);
+}
+
+.test1__container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 4px;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+}
+
+.testimonial__starIcon {
+    display: inline-block;
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: rgb(246, 173, 85);
+}
+
+.testimonial__test1--heading {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;   
+}
+
+.test1__quote {
+    margin-bottom: 40px;
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(74, 85, 104);
+}
+
+.testimonial__CustomerInfoAndControlsContainer {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial__CustomerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.testimonial__CustomerPhoto {
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 9999px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.testimonial__CustomerTextInfo {
+    margin-left: 24px;
+    text-align: left;
+}
+
+.CustomerName {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.CustomerTitle {
+    margin-top: 8px;
+    font-weight: 500;
+    color: rgb(124, 139, 161);
+}
+
+.testimonial__Controls {
+    width: 30%;
+    display: flex;  
+}
+
+.ControlButton {
+    margin: 0px 12px;
+    padding: 12px 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    align-items: center;
+    display: flex;
+    color: rgb(100, 21, 255);
+}
+
+.divider {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-right-width: 1px;
 }
