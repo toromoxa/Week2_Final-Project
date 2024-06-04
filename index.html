@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Modern React Templates &amp; Components for building landing pages and UIs - Treact</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/7d7bf2b2e9.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -28,6 +30,34 @@
                             <li class="nav__li primary"><a href="" class="nav__link--primary">Sign Up</a></li>
                         </ul>
                     </div>
+                </div>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <ul class="menu__list" >
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" onclick="closeMenu()">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#Pricing" class="menu__link" onclick="closeMenu()">Pricing</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#GetStarted" class="menu__link" onclick="closeMenu()">Contact Us</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+                        </li>
+                        <li class="menu__item--primary">
+                            <a href="#" class="menu__link--primary" onclick="closeMenu()">Sign Up</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </section>
